@@ -1,0 +1,72 @@
+$def with(page)
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pro Academy</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="static/css/fonts.css">
+    <link rel="shortcut icon" type="image/x-icon" href="static/img/favicon.ico" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="static/js/menu.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt_menu"><span class="icon-menu"></span>Menu</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Pro Academy</a></li>
+                <li><a href="download">Descargar</a></li>
+                <li><a href="help">Ayuda</a></li>
+                <li><a href="info">Informacion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <!--A partir de aqui termina el header-->
+        $:page
+        <!--A partir de aqui empieza el footer-->
+    </section>
+    <footer>
+        <div class="listcontent">
+            <div class="listsup">
+                <div class="listacademy">
+                    <h3>Inicio</h3>
+                    <ul>
+                        <li><a href="">Pro academy</a></li>
+                        <li><a href="download">Descargar</a></li>
+                    </ul>
+                </div>
+                <div class="listaccount">
+                    <h3>Informacion</h3>
+                    <ul>
+                        <li><a href="info">Como usar?</a></li>
+                        <li><a href="info">Porque leer?</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="listsdown">
+                <div class="listcontact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="listhelp">
+                    <h3>Ayuda</h3>
+                    <ul>
+                        <li><a href="help">Preguntas Frecuentes</a></li>
+                        <li><a href="download">Guia de instalacion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+$def with(ident,consult,infor)
+<!--A partir de aqui termina el header-->
+<div class="firstcontentadmin">
+    <div class="infoprofile">
+        <h1>Mi perfil</h1>
+        <table class="infoprof">
+            <tr>
+                <td><b>Nombre:</b></td>
+                <td>$item.name</td>
+            </tr>
+            <tr>
+                <td><b>Nivel:</b></td>
+                <td>$item.id_level</td>
+            </tr>
+            <tr>
+                <td><b>Pais:</b></td>
+                <td>$item.country</td>
+            </tr>
+            <tr>
+                <td><b>Puntaje:</b></td>
+                <td>$item.total_score</td>
+            </tr>
+        </table>
+    </div>
+    <div class="tableactivities">
+        <table class="activities">
+            <tr>
+                <td>Actividad</td>
+                <td>Respuesta</td>
+                <td>Pregunta</td>
+                <td>Puntaje</td>
+                <td>Fecha</td>
+                <td>Libro</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="secondcontentadmin">
+    <div class="scoreblock">
+        <h3>Score</h3>
+        <h1>$item.total_score</h1>
+    </div>
+    <div class="mistakesbloke">
+        <h3>Logros</h3>
+        <h1>$item.achiv</h1>
+    </div>
+    <div class="currentlvl">
+        <h3>Nivel</h3>
+        <h1>$item.id_level</h1>
+    </div>
+    <div class="howtounderstand">
+        <h3>Como entender todo esto?</h3>
+        <p>Para poder entender esto, es necesario poner atencion a la tabla. Dentro de la tabla se muestra el numero de actividades que tiene el usuario, el numero de actividad registrada, la respuesta dada y la pregunta hacia la que se dio cada respuesta, el puntaje obtenido para la pregunta, la fecha dn la que se hizo la pregunta y hacia que texto se hizo la pregunta.</p>
+    </div>
+</div>
+<br>
+<!--A partir de aqui empieza el footer-->
